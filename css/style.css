@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.769);
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 100px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffffca;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 18px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-one h1{
+   font-size: 50px;
+   margin: 0;
+  
+}
+.content-one{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0 0 0;
+    text-align: center;
+    color: #ffffffca;
+}
+.content-one h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+}
+.learnBtn, .buyBtn{
+    background: none;
+    border: none;
+    margin-top: 20px;
+}
+.learnBtn a, .buyBtn a{
+    color: rgba(70, 70, 241, 0.908);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.buyBtn a{
+    margin-left: 20px;
+}
+.fa-chevron-right a{
+    font-size: 17px;
+}
+.learnBtn a:hover{
+    text-decoration: dashed;
+}
+.content-one.normal, .content-one.mac{
+    background-color: #f5f5f7;
+    color: black;
+    padding-top: 30px;
+}
+
+.container-two{
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding: 0px 15px;
+    grid-gap: 12px;
+}
+.content-one.ipad, .content-one.card,
+.content-one.trade{
+    background-color: #fbfbfb;
+    color: black;
+    padding-top: 40px;
+    height: 100%;
+}
+.content-one.macair{
+    background-color: #f5f5f7;
+    color: black;
+    padding-top: 40px;
+    height: 100%;
+}
+.content-one.pod, .content-one.watch{
+    background-color: black;
+    color: #ffffffca;
+    padding-top: 40px;
+    height: 100%;
+}
+.content-one h2{
+    font-size: 30px;
+    margin: 0;
+}
+.content-one h4{
+    font-size: 22px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+}
+small{
+    color: red;
+    text-transform: uppercase;
+}
+.content-visionPro{
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+    background-image: url('../images/vision\ pro.jpg');
+}
+.subcontent-vision{
+    position:relative;
+    top: 65%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0;
+
+}
+.subcontent-vision h1{
+    font-size: 50px;
+    margin: 0;
+   
+ }
+ .subcontent-vision h3{
+     font-size: 30px;
+     margin: 0;
+     padding: 10px;
+     font-weight: 400;
+ }
+ b{
+    background: linear-gradient(90deg, #cb1333, #de45c1, #b96be2, #84a9e0, #23d43b, #d0bb08, #eb6d17);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 400;
+    display: inline-block;
+ }
